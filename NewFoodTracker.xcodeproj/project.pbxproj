@@ -13,6 +13,7 @@
 		139CB7D9233816C200D65AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139CB7D8233816C200D65AF9 /* Assets.xcassets */; };
 		139CB7DC233816C200D65AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139CB7DA233816C200D65AF9 /* LaunchScreen.storyboard */; };
 		139CB7E7233816C200D65AF9 /* NewFoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CB7E6233816C200D65AF9 /* NewFoodTrackerTests.swift */; };
+		139CB7F223383DDF00D65AF9 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CB7F123383DDF00D65AF9 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		139CB7E2233816C200D65AF9 /* NewFoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewFoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		139CB7E6233816C200D65AF9 /* NewFoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFoodTrackerTests.swift; sourceTree = "<group>"; };
 		139CB7E8233816C200D65AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139CB7F123383DDF00D65AF9 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				139CB7D1233816BF00D65AF9 /* AppDelegate.swift */,
 				139CB7D3233816BF00D65AF9 /* ViewController.swift */,
+				139CB7F123383DDF00D65AF9 /* RatingControl.swift */,
 				139CB7D5233816BF00D65AF9 /* Main.storyboard */,
 				139CB7D8233816C200D65AF9 /* Assets.xcassets */,
 				139CB7DA233816C200D65AF9 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				139CB7D4233816BF00D65AF9 /* ViewController.swift in Sources */,
+				139CB7F223383DDF00D65AF9 /* RatingControl.swift in Sources */,
 				139CB7D2233816BF00D65AF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UDLN9VZBM;
 				INFOPLIST_FILE = NewFoodTracker/Info.plist;
@@ -369,6 +374,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.musicanalytics.swift.NewFoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UDLN9VZBM;
 				INFOPLIST_FILE = NewFoodTracker/Info.plist;
@@ -387,6 +394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.musicanalytics.swift.NewFoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
